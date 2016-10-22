@@ -16,9 +16,10 @@ class TMP36
     float getTempF();
   private:
     int _pin;
-	int reading;
-	float voltage;
-	float temperaturec;
+    int reading;
+    float voltage;
+    float temperaturec;
+    float _vcc;
 };
 
 #endif
