@@ -2,7 +2,7 @@
 
 int tmpPin=0;
 
-TMP36 tmp(0);
+TMP36 tmp(0,5.0);
 
 void setup() {
   // put your setup code here, to run once:
