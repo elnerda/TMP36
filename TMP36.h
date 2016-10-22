@@ -11,7 +11,7 @@
 class TMP36
 {
   public:
-    TMP36(int pin);
+    TMP36(int pin,double vcc);
     float getTempC();
     float getTempF();
   private:
