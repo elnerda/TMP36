@@ -2,7 +2,7 @@
 
 int tmpPin=0;
 
-TMP36 tmp(0,5.0);
+TMP36 tmp(0,5.0); //pin connected to and VCC if used with 3.3V systems
 
 void setup() {
   // put your setup code here, to run once:
